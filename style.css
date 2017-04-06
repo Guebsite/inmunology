@@ -38,38 +38,94 @@ header, nav, section, article, aside, footer { display: block;
 
 h1 { font-family: 'arimoregular'; }
 h2{ }
-h3 { }
-h4 { }
+h3 { font-family: 'open_sansregular';
+     text-align: center;
+     font-size: 2rem;
+     padding-bottom: 15px;}
+
+h4 { font-family: 'arimoregular';
+     font-size: 1.5rem;
+     text-align: center;
+     padding-top: 42%;
+     display: block;
+     width: 100%;}
+
 h5 { }
-h6 { }
+h6 { font-family: 'arimoregular';
+    text-transform: uppercase;
+    color: #153994;}
+
+h4.relleno { padding-top: 31%;
+            width: 97%;}
 
 
 /*NAVEGACIÓN*/
 
 #menu { width: 100%;
         min-height: 50px;
-        background-color: #B39BC5;}
+        background-color: #B39BC5;
+        overflow: hidden;}
 
-#menu ul { }
-#menu li { }
-#menu a { font-family: 'open_sansregular'; }
-#menu a:hover { }
+#menu ul { display: block;
+           width: 70%;
+           min-width: 50px;
+           list-style-type: none;
+           float: right;}
+
+#menu li { display: block;
+           width: 50%;
+           height: 50px;
+           float: left;}
+
+#menu a { font-family: 'open_sansregular';
+          text-align: center;
+          display: block;
+          width: 100%;
+          height: 50px;
+          float: left;
+        padding-top: 12px;
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        text-decoration: none;
+        color: #000000;
+        font-size: 1rem;}
+
+#menu a.none  { border-bottom: 0px; }
+
+#menu a:hover { background-color: #D7C9E1; }
 
 
 /*lAYOUT*/
+
+.logo { width:150px;
+        margin: 0px;
+        float: left;
+        position: relative;
+        top: 15px;
+        -webkit-transform: rotateZ(8deg);
+	    -moz-transform: rotateZ(8deg);
+	    -o-transform: rotateZ(8deg);
+        }
+
+.logoimg { width: 100%;
+           height: auto;}
+
+.flag { display: none; }
+
+.tel { display: none;}
+
+.tel li { display: inline-block;}
+
 
 #contenedor { width: 100%;
               min-height: 1px;
               overflow: hidden;}
 
 #cabecera { width: 100%;
-            height: 100px;}
-
-.flag { }
-
-.tel { display: none;}
-
-.tel li { display: inline-block;}
+            height: 20px;
+            float: left;
+            }
 
 #cuerpo { width: 100%;
           min-height: 1px;
@@ -80,11 +136,21 @@ h6 { }
             font-family: 'open_sansregular';
             min-height: 1px;
             overflow: hidden;
-            padding: 10px 0px;}
+            padding: 10px 10px 20px 10px;
+            box-sizing: border-box;}
 
-#cuerpo p {  }
+#cuerpo p { padding-bottom: 1.5rem;
+            line-height: 1.8rem;
+            }
 
-#sidebar { width: 100%; }
+#cuerpo span { text-transform: uppercase;
+               text-decoration: underline;
+               font-size: 1.12rem;}
+
+#sidebar { display: none;
+          /*width: 100%;
+          min-height: 1px;
+          padding: 10px 0px;*/}
 
 /*BOTON LLAMADA A LA ACCIÓN PEDIR INFO*/
 .btninfo {
@@ -93,13 +159,16 @@ h6 { }
 	-webkit-border-radius:3px;
 	border-radius:3px;
 	border:1px solid #153994;
-	display:inline-block;
+	display:block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:22px;
 	padding:12px 46px;
 	text-decoration:none;
+    width: 60%;
+    text-align: center;
+    margin: auto;
 }
 .btninfo:hover {
 	background-color:#b39bc5;
@@ -111,11 +180,19 @@ h6 { }
 
 
 #tratamientos { width: 100%;
-                padding: 10px 0px;
+                padding: 15px 0px;
                 min-height: 1px;
                 overflow: hidden;
                 background-color: #b39bc5;
                 font-family: 'arimoregular'; }
+
+#tratamientos a { display: block;
+                  float: left;
+                  width: 100%;
+                  height: 100%;
+                  text-decoration: none;
+                  color: black;
+                  }
 
 .cuadros { width: 100%;
            min-height: 1px;
@@ -125,11 +202,15 @@ h6 { }
 
 .areas { width: 200px;
          height: 200px;
+         margin: auto;
          border-radius: 500px;
          border: 8px solid rgba(255, 255, 255, 0.5);
-         margin: auto;
          box-shadow: 0px 0px 1px black;
+         overflow: hidden;
          }
+
+.areas a:hover { background-color: rgba(215, 201, 225, 0.45);
+                 border-radius: 500px;}
 
 #tratamientos ferti { }
 #tratamientos logy { }
@@ -143,13 +224,18 @@ h6 { }
 
 #pie { width: 100%;
        min-height: 1px;
-       padding: 15px 0px;}
+       padding: 15px 0px;
+       border-top:3px solid #CAB55D;
+       background-color: #b39bc5;}
 
 .espacios { }
+
+
 
 #pie span { display: block;
             width: 100%;
             min-height: 1px;
-            padding: 10px 0px;}
+            padding: 10px 0px;
+            border-top:1px dotted rgba(165, 42, 42, 0.17);}
 
 /*MEDIA QUERIES*/
