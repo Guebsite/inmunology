@@ -61,7 +61,9 @@ h5 { font-family: 'arimoregular';
 
 h6 { font-family: 'arimoregular';
     text-transform: uppercase;
-    color: #153994;}
+    color: #153994;
+    padding: 10px 10px;}
+
 
 
 
@@ -109,11 +111,11 @@ h6 { font-family: 'arimoregular';
         margin: 0px;
         float: left;
         position: relative;
-        top: 6px;
+        top: 1px;
         left: -8px;
-        -webkit-transform: rotateZ(8deg);
-	    -moz-transform: rotateZ(8deg);
-	    -o-transform: rotateZ(8deg);
+        -webkit-transform: rotateZ(10deg);
+	    -moz-transform: rotateZ(10deg);
+	    -o-transform: rotateZ(10deg);
         }
 
 .logoimg { width: 100%;
@@ -122,13 +124,14 @@ h6 { font-family: 'arimoregular';
 .flag { display: block;
         width: 100%;
         min-height: 1px;
+        padding-top: 5px;
         overflow: hidden;
         }
 .flag a {  display: inline-block;
            width: 40px;
            height: 25px;
            background-size: 100%;
-           margin: 1px 2px;
+           margin: 1px 5px;
            float: right;
            background-image: url(img/mex.jpg);
 }
@@ -161,6 +164,8 @@ h6 { font-family: 'arimoregular';
             overflow: hidden;
             padding: 10px 10px 20px 10px;
             box-sizing: border-box;}
+
+.homeart { display: none;}
 
 #cuerpo p { padding-bottom: 1.5rem;
             line-height: 1.8rem;
@@ -274,6 +279,7 @@ h4.relleno { padding-top: 31%;
 #pie { width: 100%;
        min-height: 1px;
        padding: 15px 0px;
+       
        border-top:3px solid #CAB55D;
        background-color: #b39bc5;}
 
@@ -281,10 +287,44 @@ h4.relleno { padding-top: 31%;
 
 
 
-#pie span { display: block;
-            width: 100%;
+#pie span.copy { display: block;
+            width: 95%;
             min-height: 1px;
-            padding: 10px 0px;
+            padding: 20px 10px 10px 10px;
+            margin: 10px 0px;
+            text-align: center;
+            text-shadow: 0px 0px 0px white;
+            font-size: 0.9em;
             border-top:1px dotted rgba(165, 42, 42, 0.17);}
 
+#pie p, #pie span, #pie ul { display: block;
+                             width: 90%;
+                             font-family: 'open_sansregular';
+                             text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.47);
+                             list-style-type: none;
+                             padding: 0px 10px;}
+
 /*MEDIA QUERIES*/
+
+/*480 breakpoint*/
+@media only screen and (min-width: 480px) {
+
+    #menu ul { width: 75%; }
+    
+    .logo { top: 1px;
+            left: 5px; 
+            -webkit-transform: rotateZ(0deg);
+	        -moz-transform: rotateZ(0deg);
+	        -o-transform: rotateZ(0deg);}
+
+
+}
+
+/*600 breakpoint*/
+@media only screen and (min-width: 600px) {
+    
+    #menu li:nth-child(1), #menu li:nth-child(3) { border-left: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;}
+    
+    
+}
