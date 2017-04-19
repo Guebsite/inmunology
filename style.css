@@ -52,8 +52,8 @@ h4 { font-family: 'arimoregular';
 
 h5 { font-family: 'arimoregular';
      display: block;
-     padding: 5px 0px 25px 0px;
-     font-size: 1.2rem;
+     padding: 5px 0px 30px 0px;
+     font-size: 1.6rem;
      text-decoration: underline;
      width: 100%;
      text-align: center;}
@@ -62,7 +62,7 @@ h5 { font-family: 'arimoregular';
 h6 { font-family: 'arimoregular';
     text-transform: uppercase;
     color: #153994;
-    padding: 10px 10px;}
+    }
 
 
 
@@ -127,6 +127,7 @@ h6 { font-family: 'arimoregular';
         padding-top: 5px;
         overflow: hidden;
         }
+
 .flag a {  display: inline-block;
            width: 40px;
            height: 25px;
@@ -293,14 +294,14 @@ h4.relleno { padding-top: 31%;
             padding: 20px 10px 10px 10px;
             margin: 10px 0px;
             text-align: center;
-            text-shadow: 0px 0px 0px white;
+            text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.4);
             font-size: 0.9em;
             border-top:1px dotted rgba(165, 42, 42, 0.17);}
 
 #pie p, #pie span, #pie ul { display: block;
                              width: 90%;
                              font-family: 'open_sansregular';
-                             text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.47);
+                             text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
                              list-style-type: none;
                              padding: 0px 10px;}
 
@@ -328,3 +329,132 @@ h4.relleno { padding-top: 31%;
     
     
 }
+
+
+/*768 breakpoint*/
+@media only screen and (min-width: 768px) {
+  
+    
+  #cabecera { height: 100px; }  
+  
+  #menu { min-height: 65px; } 
+  #menu ul { width: 80%; }  
+  #menu li { width: 25%;
+             height: 65px;}
+  
+  #menu li:nth-child(1), #menu li:nth-child(3) { border-left: 0px; }
+  #menu a { border-bottom: 0px;
+            padding-top: 20px;
+            height: 65px;} 
+    
+  .logo { width: 180px;
+          top: 28px;
+          left: 8px; }  
+    
+  #cuerpo { padding: 20px 0px; }
+    
+  .tel { display: block;
+         width: 400px;
+         height: 20px;
+         float: right;
+         text-align: right;
+         padding-top: 35px;
+         font-size: 1.2em;
+          font-family: 'open_sansregular';
+          font-style: italic;
+         padding-right: 10px;}
+
+    div.tel li { width: 190px; }
+    
+    .btninfo { width: 30%;
+               margin: 15px 15% 0px 55%; }
+    
+    .contenido { padding: 45px 20px 45px 20px;
+                 
+    }
+    
+    .cuadros { width: 50%; }
+    
+    #tratamientos { padding-top: 30px;
+                    padding-bottom: 50px;}
+    
+   #servicios img.art { width: 30%;
+                        float: left;
+                        margin: 0px 20px 0px 20px;}
+    
+  
+    
+}
+
+/*992 breakpoint*/
+@media only screen and (min-width: 992px) {
+    
+    
+    .cuadros { width: 25%; }
+    #menu a { font-size: 1.2rem;    }
+    
+    .homeart { display: block;
+               float:right;
+               width: 270px;}
+    
+    .solve { margin: 30px 70% 45px 5px;
+             }
+    
+    
+}
+
+/*1266 breakpoint*/
+@media only screen and (min-width: 1266px) {
+    
+  .contenido { padding: 45px 12% 45px 12%; }  
+    
+    .logo { left: 35px;
+            top:20px;
+            width: 200px;} 
+    
+    .btninfo { width: 25%; }
+    
+    .homeart { margin-left: 10px;
+               width: 400px;}
+    
+    #servicios { padding: 30px 12% 45px 12%;  }
+    
+    .espacios { width: 26%;
+                float: left;
+                padding: 0px 0px 40px 5%;}
+    
+    .copy { float:left;}
+    
+    #pie { overflow: hidden;}
+    
+    #pie ul, #pie span, #pie p { padding: 0px;}
+    
+    h6 { border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+    padding: 10px 0px 0px 0px;}
+    
+    #pie span.copy { width: 100%;
+                     padding-top: 25px;
+                     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+                     border-top: 1px solid rgba(0, 0, 0, 0.4);}
+    
+}
+
+/*1668 breakpoint*/
+@media only screen and (min-width: 1668px) {
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
