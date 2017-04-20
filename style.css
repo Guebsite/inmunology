@@ -41,6 +41,7 @@ h2{ }
 h3 { font-family: 'open_sansregular';
      text-align: center;
      font-size: 2rem;
+     text-decoration: underline;
      padding-bottom: 15px;}
 
 h4 { font-family: 'arimoregular';
@@ -403,8 +404,8 @@ h4.relleno { padding-top: 31%;
     
 }
 
-/*1266 breakpoint*/
-@media only screen and (min-width: 1266px) {
+/*1280 breakpoint*/
+@media only screen and (min-width: 1280px) {
     
   .contenido { padding: 45px 12% 45px 12%; }  
     
@@ -439,13 +440,41 @@ h4.relleno { padding-top: 31%;
     
 }
 
-/*1668 breakpoint*/
-@media only screen and (min-width: 1668px) {
+/*1680 breakpoint*/
+@media only screen and (min-width: 1680px) {
     
+    #cabecera { height: 120px; }
+    .logo { width: 230px;
+            left: 90px;}
+    .flag { padding-top: 12px;}
+    .flag a.usa { margin-right: 14%; }
+    .tel { padding-top: 35px;
+           padding-right: 14%;}
     
+    #menu { min-height: 75px;}
+    #menu ul { min-height: 75px;
+               width: 70%;
+               margin-right: 14%;}
+    #menu li { min-height: 75px;}
+    #menu a { min-height: 75px;
+              font-size: 1.6em;
+              border-right: 0px;
+              padding-top: 18px;
+              }
     
+    #menu a:hover { background-color: transparent;
+                    text-decoration: underline;
+                    color: #153994;}
     
+    .contenido { padding: 45px 14% 45px 14%;}
+    .cuadros { padding-bottom: 40px;
+               padding-top: 20px;}
     
+    #servicios {  padding: 30px 14% 45px 14%;}
+    #servicios a.service { margin-left: 33%;
+                           width: 18%;}
+    
+    h5 { padding-bottom: 40px;}
 }
 
 
