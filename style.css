@@ -54,7 +54,7 @@ h4 { font-family: 'arimoregular';
 h5 { font-family: 'arimoregular';
      display: block;
      padding: 5px 0px 30px 0px;
-     font-size: 1.6rem;
+     font-size: 1.4rem;
      text-decoration: underline;
      width: 100%;
      text-align: center;}
@@ -63,10 +63,8 @@ h5 { font-family: 'arimoregular';
 h6 { font-family: 'arimoregular';
     text-transform: uppercase;
     color: #153994;
+    padding-left: 10px;
     }
-
-
-
 
 
 /*NAVEGACIÓN*/
@@ -143,7 +141,7 @@ h6 { font-family: 'arimoregular';
 
 .tel { display: none;}
 
-.tel li { display: inline-block;}
+
 
 
 #contenedor { width: 100%;
@@ -349,24 +347,45 @@ h4.relleno { padding-top: 31%;
             height: 65px;} 
     
   .logo { width: 180px;
-          top: 28px;
+          top: 10px;
           left: 8px; }  
+    
+    .flag { margin-bottom: 20px; }
+    
+    .tel { display: block;
+           width: 60%;
+           height: 40px;
+            padding: 0px;
+           margin-right: 0px;
+           float: right;
+           }
+    
+    .tel a { display: block;
+             float: right;
+             text-align: right;
+             box-sizing: border-box;
+             }
+    
+    a.cel, a.tel { width: 45%;
+                   height: 40px;
+                   background-repeat: no-repeat;
+                   background-position: top left;
+                   background-size: 17% auto;
+                   padding-top: 5px;
+                   color: black;
+                   font-family: 'arimoregular';
+                   font-size: 1.1em;
+                   padding-right: 2%;
+                   text-decoration: none;
+                   box-sizing: border-box;}
+    
+    a.cel { background-image: url(img/cell.jpg);}
+    
+    a.tel { background-image: url(img/phone.jpg);}
     
   #cuerpo { padding: 20px 0px; }
     
-  .tel { display: block;
-         width: 400px;
-         height: 20px;
-         float: right;
-         text-align: right;
-         padding-top: 35px;
-         font-size: 1.2em;
-          font-family: 'open_sansregular';
-          font-style: italic;
-         padding-right: 10px;}
-
-    div.tel li { width: 190px; }
-    
+  
     .btninfo { width: 30%;
                margin: 15px 15% 0px 55%; }
     
@@ -445,11 +464,11 @@ h4.relleno { padding-top: 31%;
     
     #cabecera { height: 120px; }
     .logo { width: 230px;
-            left: 90px;}
+            left: 90px;
+            top:25px;}
     .flag { padding-top: 12px;}
     .flag a.usa { margin-right: 14%; }
-    .tel { padding-top: 35px;
-           padding-right: 14%;}
+    
     
     #menu { min-height: 75px;}
     #menu ul { min-height: 75px;
@@ -468,13 +487,24 @@ h4.relleno { padding-top: 31%;
     
     .contenido { padding: 45px 14% 45px 14%;}
     .cuadros { padding-bottom: 40px;
-               padding-top: 20px;}
+               padding-top: 20px;
+               width: 19.5%;}
     
-    #servicios {  padding: 30px 14% 45px 14%;}
+    #servicios {  padding: 30px 12% 45px 14%;}
     #servicios a.service { margin-left: 33%;
                            width: 18%;}
     
     h5 { padding-bottom: 40px;}
+    
+    .first { margin-left: 11%;
+             }
+    
+    .last { margin-right:11%;
+             
+             }
+    .espacios { width: 20.2%;}
+    .espfirst { margin-left: 10%;  }
+    .esptree { margin-right: 10%;  }
 }
 
 
