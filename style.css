@@ -141,7 +141,16 @@ h6 { font-family: 'arimoregular';
 
 .tel { display: none;}
 
-
+.callnow { display: block;
+           width: 60px;
+           height: 60px;
+           position:absolute;
+           bottom: 20vw;
+           right: 20vw;
+           border-radius: 30px;
+           background-image: url(img/callnow.jpg);
+           background-size: 100%;
+           }
 
 
 #contenedor { width: 100%;
@@ -290,11 +299,11 @@ h4.relleno { padding-top: 31%;
 #pie span.copy { display: block;
             width: 95%;
             min-height: 1px;
-            padding: 20px 10px 10px 10px;
+            padding: 25px 10px 10px 10px;
             margin: 10px 0px;
             text-align: center;
             text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.4);
-            font-size: 0.9em;
+            font-size: 0.8em;
             border-top:1px dotted rgba(165, 42, 42, 0.17);}
 
 #pie p, #pie span, #pie ul { display: block;
@@ -353,7 +362,7 @@ h4.relleno { padding-top: 31%;
     .flag { margin-bottom: 20px; }
     
     .tel { display: block;
-           width: 60%;
+           width: 468px;
            height: 40px;
             padding: 0px;
            margin-right: 0px;
@@ -383,6 +392,8 @@ h4.relleno { padding-top: 31%;
     
     a.tel { background-image: url(img/phone.jpg);}
     
+    .callnow { display:none;}
+    
   #cuerpo { padding: 20px 0px; }
     
   
@@ -402,7 +413,7 @@ h4.relleno { padding-top: 31%;
                         float: left;
                         margin: 0px 20px 0px 20px;}
     
-  
+  #pie span.copy { padding-top: 27px;}
     
 }
 
@@ -421,6 +432,7 @@ h4.relleno { padding-top: 31%;
              }
     
     
+    
 }
 
 /*1280 breakpoint*/
@@ -429,7 +441,7 @@ h4.relleno { padding-top: 31%;
   .contenido { padding: 45px 12% 45px 12%; }  
     
     .logo { left: 35px;
-            top:20px;
+            top:0px;
             width: 200px;} 
     
     .btninfo { width: 25%; }
@@ -465,9 +477,11 @@ h4.relleno { padding-top: 31%;
     #cabecera { height: 120px; }
     .logo { width: 230px;
             left: 90px;
-            top:25px;}
+            top:5px;}
     .flag { padding-top: 12px;}
     .flag a.usa { margin-right: 14%; }
+    .tel { margin-right: 14%; }
+    .ph { margin-right: 0px;}
     
     
     #menu { min-height: 75px;}
