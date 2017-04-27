@@ -4,7 +4,7 @@ h2 { display: block;
      width: 100%;
      padding: 10px;
     box-sizing: border-box;
-     background-color: rgba(179, 155, 197, 0.82);
+     background-color: rgba(179, 155, 197, 0.4);
      text-align: center;
      font-size: 1.3em;
      text-transform: uppercase;}
