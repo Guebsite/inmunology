@@ -66,6 +66,8 @@ h6 { font-family: 'arimoregular';
     padding-left: 10px;
     }
 
+h6.warning, h6.int { padding-top: 15px;}
+
 
 /*NAVEGACIÓN*/
 
@@ -490,6 +492,8 @@ h4.relleno { padding-top: 31%;
     
     h6 { border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
     padding: 10px 0px 0px 0px;}
+    
+    h6.warning, h6.int { padding-top: 0px;}
     
     #pie span.copy { width: 100%;
                      padding-top: 25px;
