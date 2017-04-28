@@ -37,7 +37,8 @@ header, nav, section, article, aside, footer { display: block;
 }
 
 h1 { font-family: 'arimoregular'; }
-h2{ }
+h2{ font-family: 'arimoregular'; }
+
 h3 { font-family: 'open_sansregular';
      text-align: center;
      font-size: 2rem;

@@ -3,20 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="css/sidebar.css">
+    
+    <link rel="stylesheet" href="css/bar.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="sidebar">
          <h2>── Equipo Humano ──</h2>
-          <ul>
-              <li><a href="#">Elemento</a></li>
-              <li><a href="#">Elemento</a></li>
-              <li><a href="#">Elemento</a></li>
-              <li><a href="#">Elemento</a></li>
-              <li><a href="#">Elemento</a></li>              
-          </ul>               
-    </div>   
+    <nav class="nav" role="navigation">
+  <ul class="nav__list">
+    <li>
+      <input id="group-1" type="checkbox" hidden />
+      <label for="group-1"><span class="fa fa-angle-right"></span> First level</label>
+      <ul class="group-list">
+        <li><a href="#">1st level item</a></li>
+        <li>
+          <input id="sub-group-1" type="checkbox" hidden />
+          <label for="sub-group-1"><span class="fa fa-angle-right"></span> Second level</label>
+          <ul class="sub-group-list">
+            <li><a href="#">2nd level nav item</a></li>
+            <li><a href="#">2nd level nav item</a></li>
+            <li><a href="#">2nd level nav item</a></li>
+            <li>
+              <input id="sub-sub-group-1" type="checkbox" hidden />
+              <label for="sub-sub-group-1"><span class="fa fa-angle-right"></span> Third level</label>
+              <ul class="sub-sub-group-list">
+                <li><a href="#">3rd level nav item</a></li>
+                <li><a href="#">3rd level nav item</a></li>
+                <li><a href="#">3rd level nav item</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <input id="group-2" type="checkbox" hidden />
+      <label for="group-2"><span class="fa fa-angle-right"></span> First level</label>
+      <ul class="group-list">
+        <li>
+          <li><a href="#">1st level item</a></li>
+          <li><a href="#">1st level item</a></li>
+          <input id="sub-group-2" type="checkbox" hidden />
+          <label for="sub-group-2"><span class="fa fa-angle-right"></span> Second level</label>
+          <ul class="sub-group-list">
+            <li><a href="#">2nd level nav item</a></li>
+            <li><a href="#">2nd level nav item</a></li>
+            <li>
+              <input id="sub-sub-group-2" type="checkbox" hidden />
+              <label for="sub-sub-group-2"><span class="fa fa-angle-right"></span> Third level</label>
+              <ul class="sub-sub-group-list">
+                <li><a href="#">3rd level nav item</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <input id="group-3" type="checkbox" hidden />
+      <label for="group-3"><span class="fa fa-angle-right"></span> First level</label>
+      <ul class="group-list">
+        <li>
+          <li><a href="#">1st level item</a></li>
+          <li><a href="#">1st level item</a></li>
+          <input id="sub-group-3" type="checkbox" hidden />
+          <label for="sub-group-3"><span class="fa fa-angle-right"></span> Second level</label>
+          <ul class="sub-group-list">
+            <li><a href="#">2nd level nav item</a></li>
+            <li><a href="#">2nd level nav item</a></li>
+            <li><a href="#">2nd level nav item</a></li>
+            <li>
+              <input id="sub-sub-group-3" type="checkbox" hidden />
+              <label for="sub-sub-group-3"><span class="fa fa-angle-right"></span> Third level</label>
+              <ul class="sub-sub-group-list">
+                <li><a href="#">3rd level nav item</a></li>
+                <li><a href="#">3rd level nav item</a></li>
+                <li><a href="#">3rd level nav item</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <input id="group-4" type="checkbox" hidden />
+      <label for="group-4"><span class="fa fa-angle-right"></span> First level</label>
+      <ul class="group-list">
+        <li>
+          <li><a href="#">1st level item</a></li>
+          <input id="sub-group-4" type="checkbox" hidden />
+          <label for="sub-group-4"><span class="fa fa-angle-right"></span> Second level</label>
+          <ul class="sub-group-list">
+            <li><a href="#">2nd level nav item</a></li>
+            <li><a href="#">2nd level nav item</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav> 
+    
+   </div> 
     
 </body>
 </html>
