@@ -69,7 +69,7 @@ h6 { font-family: 'arimoregular';
 
 h6.warning, h6.int { padding-top: 15px;}
 
-
+#cuerpo span.fa { text-decoration: none;}
 /*NAVEGACIÓN*/
 
 #menu { width: 100%;
@@ -444,7 +444,11 @@ h4.relleno { padding-top: 31%;
     .cuadros { width: 25%; }
     #menu a { font-size: 1.2rem;    }
     
-    .homeart { display: block;
+    #menu ul { width: 70%;
+               margin-right: 4%;
+}
+    
+    .homeart { display: none;
                float:right;
                width: 320px;
                margin-left: 10px;}
