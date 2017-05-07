@@ -25,7 +25,7 @@
         
         <div class="logo">
          
-          <img class="logoimg" src="img/logo-inmunology.png" alt="">
+          <a href="index.php"><img class="logoimg" src="img/logo-inmunology.png" alt=""></a>
           
       </div> 
       </header>

@@ -199,9 +199,9 @@ h6.warning, h6.int { padding-top: 15px;}
 /*BOTON LLAMADA A LA ACCIÓN PEDIR INFO*/
 .btninfo {
 	background-color:#915eb8;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	border-radius:3px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
 	border:1px solid #153994;
 	display:block;
 	cursor:pointer;
@@ -480,7 +480,8 @@ h4.relleno { padding-top: 31%;
     
     .btninfo { width: 25%; }
     
-    .homeart { margin-left: 10px;
+    .homeart { display: block;
+               margin-left: 10px;
                width: 400px;}
     
     #servicios { padding: 30px 12% 45px 12%;  }

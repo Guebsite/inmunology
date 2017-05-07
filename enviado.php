@@ -5,6 +5,9 @@
     <title>Inmunology & Reproduction</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <div id="contenedor">
@@ -31,13 +34,16 @@
       
       <section id="cuerpo">
         <div class="contenido">
-            <?php include 'cont.php' ?>
-            <div id="sidebar">
-                
-                
-                
-            </div>           
+           
+            <?php include 'cont_enviado.php' ?>
+            
+                  
         </div>
+        <div id="sidebar">    
+                
+                <?php include 'form.php' ?>
+                
+        </div> 
         <section id="tratamientos">
             <h3>Tratamientos</h3>
             <div class="cuadros first">
