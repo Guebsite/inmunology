@@ -79,7 +79,7 @@
       <footer id="pie">
           <div class="espacios espfirst">
               <h6>Dirección</h6>
-              <p>Estamos hubicados en Nainari 1028 E/quintana Roo y Chiapas</p>
+              <p>Estamos ubicados en Nainari 1028 E/quintana Roo y Chiapas</p>
           </div>
           <div class="espacios espsecond">
               <h6 class="warning">Horarios de Atención</h6>
