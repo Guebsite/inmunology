@@ -7,7 +7,7 @@
 #contacto{
  width: 100%;
  min-height: 400px;
- padding: 20px 5px;
+ padding: 20px 0px;
  margin: 0 auto;
  
  /*background-image: url(descarga.jpg);
@@ -16,7 +16,7 @@
 }
 
 #contacto form { width: 98%;
-                 padding: 10px 20px;
+                 padding: 10px 0px;
                  margin: auto;
                       
                  
@@ -163,10 +163,10 @@ label > span {
 @media only screen and (min-width: 481px) {
     
  #contacto{
-            width: 400px;
+            width: 100%;
             margin: auto;}
     
-    #contacto form { width: 80%;}
+    #contacto form { width: 100%;}
     
 }
 
@@ -182,16 +182,15 @@ label > span {
 /*992 breakpoint*/
 @media only screen and (min-width: 992px) {
     
-   #sidebar { width: 35%;
+   #sidebar { width: 30%;
               float: left;
-              margin: 40px 10px 10px 10px;} 
+              margin: 25px 10px 10px 10px;} 
 
-    .contenido { width: 60%;
+    .contenido { width: 65%;
                  float: left;
                  box-sizing: border-box;}
     
-    .solve { width: 250px;
-        margin: 10px 30% 20px 5px;
+    .solve { width: 45%;}
 }
     
 }
@@ -199,15 +198,15 @@ label > span {
 /*1280 breakpoint*/
 @media only screen and (min-width: 1280px) {
     
-    #sidebar { width: 26.5%;
-               margin: 40px 4% 10px 10px;}
+    #sidebar { width: 26.6%;
+               margin: 40px 0px 10px 10px;}
     
-     .contenido { width: 48%;
-                  margin-left: 12%;
-                  padding: 35px 0px 0px 20px;
-                  margin-right: 20px;}
+     .contenido { width: 50%;
+                  margin-left: 13.5%;
+                  padding: 45px 10px 45px 5.1%;
+                  margin-right: 0px;
+                  margin-bottom: 30px;}
     
-    #menu ul { margin-right: 11%;}
     #contacto { padding-top: 0px;}
     
 }
@@ -215,13 +214,17 @@ label > span {
 /*1380 breakpoint*/
 @media only screen and (min-width: 1380px) {
     
-    .flag, .tel { margin-right: 8%; }
+    .flag, .tel { margin-right: 6.8%; }
     
-    .flag { width: 89%;}
+    .flag { width: 90.5%;}
 }
 
 /*1680 breakpoint*/
 @media only screen and (min-width: 1680px) {
+    
+    #sidebar { margin-left: 65px;
+               width: 22%;}
+    .solve { width: 35%;}
     
    .flag, .tel { margin-right: 8%; }
     

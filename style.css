@@ -345,7 +345,8 @@ h4.relleno { padding-top: 31%;
     .contenido { padding: 20px 10px 35px 10px;}
     
     .cuadros { width: 50%;}
-    
+    .logo { top: 1px;
+            left: 28px;}
     
 }
 
@@ -376,7 +377,7 @@ h4.relleno { padding-top: 31%;
            width: 468px;
            height: 40px;
             padding: 0px;
-           margin-right: 0px;
+            
            float: right;
            }
     
@@ -444,7 +445,7 @@ h4.relleno { padding-top: 31%;
     .cuadros { width: 25%; }
     #menu a { font-size: 1.2rem;    }
     
-    #menu ul { width: 70%;
+    #menu ul { width: 80%;
                margin-right: 4%;
 }
     
@@ -453,9 +454,13 @@ h4.relleno { padding-top: 31%;
                width: 320px;
                margin-left: 10px;}
     
-    .solve { margin: 10px 70% 20px 5px;}
+    .solve { width: 35%;
+             margin: 10px 70% 20px 5px;}
     
-    #servicios, .contenido {  padding: 45px 40px 45px 40px;}
+    .contenido {  padding: 45px 40px 45px 40px;}
+    #servicios { padding: 45px 20px 45px 20px; }
+    
+    
     
     #tratamientos { padding-bottom: 60px;}
     
@@ -468,11 +473,16 @@ h4.relleno { padding-top: 31%;
 /*1280 breakpoint*/
 @media only screen and (min-width: 1280px) {
     
-  .contenido { padding: 45px 12% 45px 12%; }  
+    .flag { width: 96%;}
+  .tel { margin-right: 2.7%;} 
+  .contenido { padding: 45px 5.1% 45px 5.1%;} 
+    
     
     .logo { left: 35px;
             top:0px;
             width: 200px;} 
+    #menu ul { margin-right: 4.2%;
+               width: 80%; }
     
     #menu li:first-child { display: block;}
     
@@ -484,7 +494,9 @@ h4.relleno { padding-top: 31%;
                margin-left: 10px;
                width: 400px;}
     
-    #servicios { padding: 30px 12% 45px 12%;  }
+    #sidebar { width: 25% !important;}
+    
+    #servicios { padding: 30px 9.5% 45px 9.5%; }
     
     .espacios { width: 26%;
                 float: left;
@@ -505,6 +517,7 @@ h4.relleno { padding-top: 31%;
                      padding-top: 25px;
                      text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
                      border-top: 1px solid rgba(0, 0, 0, 0.4);}
+    #contacto { padding-top: 0px;}
     
 }
 
@@ -519,25 +532,27 @@ h4.relleno { padding-top: 31%;
 /*1680 breakpoint*/
 @media only screen and (min-width: 1680px) {
     
-    #cabecera { height: 85px; }
+    #cabecera { height: 85px;
+                margin-bottom: 8px;}
     .logo { width: 230px;
             left: 7%;
-            top:-12px;}
-    .flag { padding-top: 12px;}
-    .flag a.usa { margin-right: 14%; }
-    .tel { margin-right: 13.3%; }
+            top:-2px;}
+    .flag { padding-top: 12px;
+            width: 86%;}
+    
+    .tel { margin-right: 13.6%; }
     .ph { margin-right: 0px;}
     
     
     #menu { min-height: 75px;}
     #menu ul { min-height: 75px;
-               width: 70%;
-               margin-right: 14%;}
+               width: 75%;
+               margin-right: 8%;}
     #menu li { min-height: 75px;}
     #menu a { min-height: 75px;
-              font-size: 1.6em;
+              font-size: 1.5em;
               border-right: 0px;
-              padding-top: 18px;
+              padding-top: 19px;
               }
     
     #menu a:hover { background-color: transparent;
@@ -548,7 +563,7 @@ h4.relleno { padding-top: 31%;
                  }
     #cuerpo span { font-size: 1.14em; }
     
-    #cuerpo p { font-size: 1.6em;
+    #cuerpo p { font-size: 1.3em;
                 line-height: 1.8em;
                 color: rgba(28, 26, 26, 0.88);}
     
