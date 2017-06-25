@@ -79,7 +79,9 @@
       <footer id="pie">
           <div class="espacios espfirst">
               <h6>Dirección</h6>
-              <p>Estamos ubicados en Nainari 1028 E/quintana Roo y Chiapas</p>
+              <p>Estamos ubicados en Av. A.Obregón #130 Interior 204-205-206, Col. Fundo Legal - Edificio Plaza Santa María - Nogales, Sonora.</p>
+              <p>Tel: <a href="tel:6313128389">(631) 312 8389</a></p>
+              <p>Cel:<a href="tel:6442365940">(644) 236 5940</a></p>
           </div>
           <div class="espacios espsecond">
               <h6 class="warning">Horarios de Atención</h6>

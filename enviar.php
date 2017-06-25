@@ -1,6 +1,6 @@
 <?php 
 $destino = "reynier.nr@gmail.com";
-$subject = "www.elyfotografia.com.mx";
+$subject = "Mensaje Enviado desde www.immunologyandreproduction.com/";
 $nombre = $_POST["nombre"];
 $email = $_POST["email"];
 $tel = $_POST["tel"];

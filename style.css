@@ -50,6 +50,7 @@ h4 { font-family: 'arimoregular';
      text-align: center;
      padding-top: 42%;
      display: block;
+     text-shadow: 0px 0px 1px white;
      width: 100%;}
 
 h5 { font-family: 'arimoregular';
@@ -64,7 +65,7 @@ h5 { font-family: 'arimoregular';
 h6 { font-family: 'arimoregular';
     text-transform: uppercase;
     color: #153994;
-    padding-left: 10px;
+    padding-left: 0px !important;
     }
 
 h6.warning, h6.int { padding-top: 15px;}
@@ -252,6 +253,21 @@ h6.warning, h6.int { padding-top: 15px;}
          box-shadow: 0px 0px 1px black;
          overflow: hidden;
          }
+.ferti { background-image: url(img/fertilidad.jpg);
+         background-position: center;
+         background-size: 150%;}
+
+.logy   { background-image:url(img/inmunology.jpg);
+         background-position: -90px center ;
+         background-size: 150%;}
+
+.fetal { background-image:url(img/maternof.jpg);
+         background-position: center ;
+         background-size: 106%; }
+
+.rep { background-image:url(img/genetica.jpg);
+         background-position: -100px center ;
+         background-size: 150%;}
 
 .areas a:hover { background-color: rgba(215, 201, 225, 0.45);
                  border-radius: 500px;}
@@ -509,7 +525,7 @@ h4.relleno { padding-top: 31%;
     #pie ul, #pie span, #pie p { padding: 0px;}
     
     h6 { border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
-    padding: 10px 0px 0px 0px;}
+    padding: 0px 0px 0px 0px;}
     
     h6.warning, h6.int { padding-top: 0px;}
     
