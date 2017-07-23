@@ -48,28 +48,28 @@
             <h3>Tratamientos</h3>
             <div class="cuadros first">
                 <div class="areas ferti">
-                   <a href="#">
+                   <a href="fertilidad.php">
                     <h4>Fertilidad</h4>
                    </a>                    
                 </div>                
             </div>
             <div class="cuadros second">
                 <div class="areas logy">
-                   <a href="#">
+                   <a href="inmunologia.php">
                     <h4>Inmunología</h4>
                    </a>
                 </div>                  
             </div>
             <div class="cuadros tree">
                 <div class="areas fetal">
-                   <a href="#">
+                   <a href="materno-fetal.php">
                     <h4 class="relleno">Medicina Materno Fetal</h4>
                    </a>
                 </div>                 
             </div>
             <div class="cuadros last">
                 <div class="areas rep">
-                   <a href="#">
+                   <a href="genetica-reprod.php">
                     <h4 class="relleno">Genética y Reproducción</h4>
                    </a>
                 </div>                 
