@@ -154,9 +154,7 @@ h6.warning, h6.int { padding-top: 15px;}
            bottom: 4vw;
            right: 4vw;
            border-radius: 30px;
-           box-shadow: 0px 0px 1px black;
            background-image: url(img/callnow.jpg);
-           background-color: #63e26f;
            background-position: center center;
            background-size: 100%;
            position: fixed;
@@ -251,7 +249,7 @@ h6.warning, h6.int { padding-top: 15px;}
          height: 200px;
          margin: auto;
          border-radius: 500px;
-         border: 8px solid rgba(255, 255, 255, 0.9);
+         border: 8px solid rgba(255, 255, 255, 0.5);
          box-shadow: 0px 0px 1px black;
          overflow: hidden;
          }
@@ -339,6 +337,8 @@ h4.relleno { padding-top: 31%;
                              padding: 0px 10px;}
 
 /*MEDIA QUERIES*/
+
+
 
 /*480 breakpoint*/
 @media only screen and (min-width: 480px) {

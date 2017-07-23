@@ -5,6 +5,9 @@
     <title>Inmunology & Reproduction</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <div id="contenedor">
@@ -31,39 +34,42 @@
       
       <section id="cuerpo">
         <div class="contenido">
-            <?php include 'cont.php' ?>
-            <div id="sidebar">
-                
-                
-                
-            </div>           
+           
+            <?php include 'contnos.php' ?>
+            
+                  
         </div>
+        <div id="sidebar">    
+                
+                <?php include 'acord_trat.php' ?>
+                
+        </div> 
         <section id="tratamientos">
             <h3>Tratamientos</h3>
             <div class="cuadros first">
                 <div class="areas ferti">
-                   <a href="fertilidad.php">
+                   <a href="#">
                     <h4>Fertilidad</h4>
                    </a>                    
                 </div>                
             </div>
             <div class="cuadros second">
                 <div class="areas logy">
-                   <a href="inmunologia.php">
+                   <a href="#">
                     <h4>Inmunología</h4>
                    </a>
                 </div>                  
             </div>
             <div class="cuadros tree">
                 <div class="areas fetal">
-                   <a href="materno-fetal.php">
+                   <a href="#">
                     <h4 class="relleno">Medicina Materno Fetal</h4>
                    </a>
                 </div>                 
             </div>
             <div class="cuadros last">
                 <div class="areas rep">
-                   <a href="genetica-reprod.php">
+                   <a href="#">
                     <h4 class="relleno">Genética y Reproducción</h4>
                    </a>
                 </div>                 
