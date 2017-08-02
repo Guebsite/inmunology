@@ -36,7 +36,9 @@ header, nav, section, article, aside, footer { display: block;
 
 }
 
-h1 { font-family: 'arimoregular'; }
+h1 { font-family: 'arimoregular';
+     font-size: 1.8em;
+     padding: 10px 0px;}
 h2{ font-family: 'arimoregular'; }
 
 h3 { font-family: 'open_sansregular';
@@ -116,7 +118,7 @@ h6.warning, h6.int { padding-top: 15px;}
         margin: 0px;
         float: left;
         position: relative;
-        top: 1px;
+        top: -7px;
         left: -8px;
         -webkit-transform: rotateZ(10deg);
 	    -moz-transform: rotateZ(10deg);
@@ -157,6 +159,7 @@ h6.warning, h6.int { padding-top: 15px;}
            background-image: url(img/callnow.jpg);
            background-position: center center;
            background-size: 100%;
+           background-color: #915eb8;
            position: fixed;
            }
 
@@ -315,14 +318,17 @@ h4.relleno { padding-top: 31%;
        border-top:3px solid #CAB55D;
        background-color: #b39bc5;}
 
-.espacios { }
+div.espacios a { text-decoration: none;
+                 color: black;}
+
+div.espacios a:hover { text-decoration: underline;}
 
 
 
 #pie span.copy { display: block;
             width: 95%;
             min-height: 1px;
-            padding: 25px 10px 10px 10px;
+            padding: 20px 10px 0px 10px;
             margin: 10px 0px;
             text-align: center;
             text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.4);
@@ -345,7 +351,7 @@ h4.relleno { padding-top: 31%;
 
     #menu ul { width: 75%; }
     
-    .logo { top: 1px;
+    .logo { top: -7px;
             left: 5px; 
             -webkit-transform: rotateZ(0deg);
 	        -moz-transform: rotateZ(0deg);
@@ -363,7 +369,7 @@ h4.relleno { padding-top: 31%;
     .contenido { padding: 20px 10px 35px 10px;}
     
     .cuadros { width: 50%;}
-    .logo { top: 1px;
+    .logo { 
             left: 28px;}
     
 }
@@ -386,7 +392,7 @@ h4.relleno { padding-top: 31%;
             height: 65px;} 
     
   .logo { width: 180px;
-          top: 10px;
+          top: -2px;
           left: 8px; }  
     
     .flag { margin-bottom: 5px;}
@@ -431,7 +437,7 @@ h4.relleno { padding-top: 31%;
                margin: 15px 15% 0px 55%; }
     
     #cuerpo p, #servicios p { line-height: 2.2rem;
-                              font-size: 1.1rem; }
+                              font-size: 1.3rem; }
     
     .contenido { padding: 45px 20px 45px 20px;
                  
@@ -497,7 +503,7 @@ h4.relleno { padding-top: 31%;
     
     
     .logo { left: 35px;
-            top:0px;
+            top:-7px;
             width: 200px;} 
     #menu ul { margin-right: 4.2%;
                width: 80%; }

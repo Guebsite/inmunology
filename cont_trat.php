@@ -1,9 +1,14 @@
 <article>
-                <img class="homeart" src="http://lorempixel.com/200/200/abstract/" alt="">
+                <h1>Tratamientos</h1>
                 
-                <p><span>Inmunology & Reproduction</span> es el primer centro médico especializado en Fertilidad e Inmunologia aplicada a la Reproducción en Nogales, Sonora, Mexico, contamos con tecnología de última generación. Nuestros Médicos cuentan con preparación en Estados Unidos y Europa manteniendose actualizados para alcanzar altos estándares Internacionales.</p>
-                <p>Estamos comprometidos en cumplir tus sueños de ser padres y conformar una nueva familia. Tu ilusión es la base de nuestro trabajo por lo que te invitamos a comunicarte con nosotros</p>
+                <p>Realizamos todos los tratamientos de baja y alta complejidad que existen en la actualidad para la atención de la infertilidad masculina y femenina.</p>
                 
-                <a href="#" class="btninfo solve">Solicitar Información</a>
+                <p>Alcanzado el embarazo, usted cuenta con los servicios de <a href="materno-fetal.php">Medicina Materno Fetal</a> para el control prenatal, asegurandole de esta forma un correcto seguimiento durante todo el período de gestación, permitiendonos detectar hasta un 90% de patologías en el bebe.</p>
+                
+                <p>Con <span>inmunology & Reproduction</span> usted tendrá una atención personalizada de mano de los mejores especialistas en reproducción de toda la región.</p>
+                
+                <p>Le invitamos a comunicarse con nosotros para resolver sus dudas.</p>
+                
+                <a href="#" class="btninfo solve">Consultar ahora</a>
                 
 </article>

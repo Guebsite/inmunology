@@ -15,24 +15,7 @@
         <li><a href="#">Recuperación espermática </a></li>
         <li><a href="#">Madurción de óvulos in Vitro </a></li>
         <li><a href="#">Banco de semen</a></li>
-        <li>
-          <input id="sub-group-1" type="checkbox" hidden />
-          <label for="sub-group-1"><span class="fa fa-angle-right"></span> Second level</label>
-          <ul class="sub-group-list">
-            <li><a href="#">2nd level nav item</a></li>
-            <li><a href="#">2nd level nav item</a></li>
-            <li><a href="#">2nd level nav item</a></li>
-            <li>
-              <input id="sub-sub-group-1" type="checkbox" hidden />
-              <label for="sub-sub-group-1"><span class="fa fa-angle-right"></span> Third level</label>
-              <ul class="sub-sub-group-list">
-                <li><a href="#">3rd level nav item</a></li>
-                <li><a href="#">3rd level nav item</a></li>
-                <li><a href="#">3rd level nav item</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
+        
       </ul>
     </li>
     <li>
@@ -40,21 +23,10 @@
       <label for="group-2"><span class="fa fa-angle-right"></span> Inmunología</label>
       <ul class="group-list">
         <li>
-          <li><a href="#">1st level item</a></li>
-          <li><a href="#">1st level item</a></li>
-          <input id="sub-group-2" type="checkbox" hidden />
-          <label for="sub-group-2"><span class="fa fa-angle-right"></span> Second level</label>
-          <ul class="sub-group-list">
-            <li><a href="#">2nd level nav item</a></li>
-            <li><a href="#">2nd level nav item</a></li>
-            <li>
-              <input id="sub-sub-group-2" type="checkbox" hidden />
-              <label for="sub-sub-group-2"><span class="fa fa-angle-right"></span> Third level</label>
-              <ul class="sub-sub-group-list">
-                <li><a href="#">3rd level nav item</a></li>
-              </ul>
-            </li>
-          </ul>
+          <li><a href="#">L.I.T.</a></li>
+          
+          
+          
         </li>
       </ul>
     </li>
@@ -63,24 +35,16 @@
       <label for="group-3"><span class="fa fa-angle-right"></span> Medicina Materno Fetal</label>
       <ul class="group-list">
         <li>
-          <li><a href="#">1st level item</a></li>
-          <li><a href="#">1st level item</a></li>
-          <input id="sub-group-3" type="checkbox" hidden />
-          <label for="sub-group-3"><span class="fa fa-angle-right"></span> Second level</label>
-          <ul class="sub-group-list">
-            <li><a href="#">2nd level nav item</a></li>
-            <li><a href="#">2nd level nav item</a></li>
-            <li><a href="#">2nd level nav item</a></li>
-            <li>
-              <input id="sub-sub-group-3" type="checkbox" hidden />
-              <label for="sub-sub-group-3"><span class="fa fa-angle-right"></span> Third level</label>
-              <ul class="sub-sub-group-list">
-                <li><a href="#">3rd level nav item</a></li>
-                <li><a href="#">3rd level nav item</a></li>
-                <li><a href="#">3rd level nav item</a></li>
-              </ul>
-            </li>
-          </ul>
+          <li><a href="#">Cribado 1er Trimestre</a></li>
+          <li><a href="#">Cribado 2do Trimestre</a></li>
+          <li><a href="#">Doppler 1er Trimestre</a></li>
+          <li><a href="#">Doppler 2do Trimestre</a></li>
+          <li><a href="#">Quantus Maduración Pulmonar</a></li>
+          <li><a href="#">Amniosentesis</a></li>
+          <li><a href="#">Biopsia de bellosidades Coriales</a></li>
+          <li><a href="#">Cardiotocografía simple y estresada</a></li>
+          
+          
         </li>
       </ul>
     </li>
@@ -90,12 +54,8 @@
       <ul class="group-list">
         <li>
           <li><a href="#">Laboratorio de genética</a></li>
-          <input id="sub-group-4" type="checkbox" hidden />
-          <label for="sub-group-4"><span class="fa fa-angle-right"></span> Second level</label>
-          <ul class="sub-group-list">
-            <li><a href="#">2nd level nav item</a></li>
-            <li><a href="#">2nd level nav item</a></li>
-          </ul>
+          
+          
         </li>
       </ul>
     </li>
@@ -106,12 +66,7 @@
           <li><a href="#">Cirugía Laparoscópica</a></li>
           <li><a href="#">Histeroscopía quirurgica</a></li>
           <li><a href="#">Histeroscopía de consultorio</a></li>
-          <input id="sub-group-5" type="checkbox" hidden />
-          <label for="sub-group-5"><span class="fa fa-angle-right"></span> Second level</label>
-          <ul class="sub-group-list">
-            <li><a href="#">2nd level nav item</a></li>
-            <li><a href="#">2nd level nav item</a></li>
-          </ul>
+          
         </li>
       </ul>
   </ul>

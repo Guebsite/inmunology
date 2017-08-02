@@ -1,8 +1,12 @@
 <article>
-                <img class="homeart" src="http://lorempixel.com/200/200/abstract/" alt="">
+                <h1>Contáctanos</h1>
+                                
+                <p>Estamos ubicados en Av. A.Obregón #130 Interior 204-205-206, Col. Fundo Legal - Edificio Plaza Santa María - Nogales, Sonora.</p>
                 
-                <p><span>Inmunology & Reproduction</span> es el primer centro médico especializado en Fertilidad e Inmunologia aplicada a la Reproducción en Nogales, Sonora, Mexico, contamos con tecnología de última generación. Nuestros Médicos cuentan con preparación en Estados Unidos y Europa manteniendose actualizados para alcanzar altos estándares Internacionales.</p>
-                <p>Estamos comprometidos en cumplir tus sueños de ser padres y conformar una nueva familia. Tu ilusión es la base de nuestro trabajo por lo que te invitamos a comunicarte con nosotros</p>
+                <label for="tel">Teléfono:<a href="tel:6313128389">(631) 312 8389</a></label>
+                <label for="cel">Celular:<a href="tel:6442365940">(644) 236 5940</a></label>
+                
+                
                 
                
                 
