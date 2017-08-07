@@ -191,9 +191,86 @@ h6.warning, h6.int { padding-top: 15px;}
             line-height: 1.8rem;
             }
 
+article a { color: black;}
+
+article ul { padding-left: 1em;}
+
+article li { line-height: 1; }
+
 #cuerpo span { text-transform: uppercase;
                text-decoration: underline;
                font-size: 1.12rem;}
+
+.vcard, .estudios { width: 98%;
+                    min-height: 1px;
+                    padding: 15px;
+                    border-top: 4px solid #B39BC5;
+                    box-sizing: border-box;
+                    margin: auto;
+                    box-shadow: 0px 0px 2px #000000;}
+
+.vcard h1 { text-align: center !important;}
+
+.vcard p { display: block;
+           width: 88%;
+           padding-left: 10px;
+           padding-right: 10px;
+           min-height: 1px;
+           border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+           border-top: 1px dotted rgba(0, 0, 0, 0.5);
+           background-color: rgba(179, 155, 197, 0.2);
+           margin: auto;}
+           
+
+.foto { width: 200px;
+        height: 200px;
+        border: 3px solid rgba(21, 57, 148, 0.36);
+        border-radius: 100%;
+        background-image: url(img/persona-anonima.jpg);
+        background-position: center;
+        padding-bottom: 20px;
+        margin: auto;}
+
+.estudios { border: none;
+            margin-top: 10px;
+            display: flex;
+            flex-flow: column;}
+
+.comunication { display: flex;
+                flex-flow: row;
+                min-height: 1px;
+                padding: 10px 0px 10px 0px;}
+
+.comunication a { width: 50%;
+                  padding-left: 25px;}
+
+.humantel, .humanmail { background-image: url(img/phone.png);
+                        background-repeat: no-repeat;}
+
+.humanmail { background-image: url(img/email.png); }
+
+
+.escudos { width: 65px;
+           margin: auto;}
+
+.escudos img { width: 100%;
+                
+                height: auto;}
+
+div.univ { width: 100%; }
+
+div.univ p { padding-top: 10px;
+             text-align: center;}
+
+h6.ssss { color: black;
+          display: block;
+          text-align: center;
+          width: 100%;
+          font-size: 0.8em;
+          line-height: 15px;
+          text-transform: capitalize !important;
+          text-transform: none;}
+
 
 #sidebar { display: none;
           /*width: 100%;

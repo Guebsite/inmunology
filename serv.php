@@ -7,6 +7,6 @@
                
                
                
-               <a href="#" class="btninfo service">Continuar Leyendo</a>
+               <a href="contacto.php" class="btninfo service">Contáctanos</a>
                
            </article>

@@ -9,6 +9,6 @@
                 
                 <p>Le invitamos a comunicarse con nosotros para resolver sus dudas.</p>
                 
-                <a href="#" class="btninfo solve">Consultar ahora</a>
+                <a href="contacto.php" class="btninfo solve">Consultar ahora</a>
                 
 </article>

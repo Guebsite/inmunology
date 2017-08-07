@@ -5,6 +5,6 @@
                  
                 <p>---</p>
                 
-                <a href="#" class="btninfo solve">Solicitar Información</a>
+                <a href="contacto.php" class="btninfo solve">Solicitar Información</a>
                 
 </article>

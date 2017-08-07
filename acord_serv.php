@@ -3,34 +3,25 @@
   <ul class="nav__list">
     <li>
       
-      <a href="#">Laboratorio de análisis clínicos</a>
+      <a href="laboratorio-analisis-clinicos.php">Laboratorio de análisis clínicos</a>
       
     </li>
     <li>
       
-      <a href="#">Laboratorio de andrología</a>
+      <a href="laboratorio-andrologia.php">Laboratorio de andrología</a>
       
     </li>
     <li>
       
-      <a href="#">Farmacia</a>
+      <a href="farmacia.php">Farmacia</a>
       
     </li>
+    
     <li>
-      <a href="#">Histeroscopía de consultorio</a>
+      <a href="ultrasonido4d.php">Utrasonido 4D</a>
       
     </li>
-    <li>
-      <a href="#">Utrasonido 4D</a>
-      
-    </li>
-    <li>
-      <a href="#">Histeroscopía de consultorio</a>
-      
-    </li>
-    <li>
-      <a href="#">Histeroscopía de consultorio</a>
-      
-    </li>
+
+    
   </ul>
 </nav> 
