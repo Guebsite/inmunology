@@ -37,13 +37,13 @@
            
             <?php include 'cont_enviado.php' ?>
             
-                  
-        </div>
         <div id="sidebar">    
                 
                 <?php include 'form.php' ?>
                 
-        </div> 
+        </div>          
+        </div>
+         
         <section id="tratamientos">
             <h3>Tratamientos</h3>
             <div class="cuadros first">

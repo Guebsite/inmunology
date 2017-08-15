@@ -36,14 +36,14 @@
         <div class="contenido">
            
             <?php include 'cont-amniosentesis.php' ?>
-            
-                  
-        </div>
-        <div id="sidebar">    
+            <div id="sidebar">    
                 
                 <?php include 'acord_trat.php' ?>
                 
-        </div> 
+            </div> 
+                  
+        </div>
+        
         <section id="tratamientos">
             <h3>Tratamientos</h3>
             <div class="cuadros first">

@@ -182,13 +182,16 @@ label > span {
 /*992 breakpoint*/
 @media only screen and (min-width: 992px) {
     
-   #sidebar { width: 30%;
-              float: left;
-              margin: 25px 10px 10px 10px;} 
+   #sidebar {  width: 35% !important;
+                float: left;
+                margin: 25px 0px 10px 40px !important; }
 
     .contenido { width: 65%;
                  float: left;
                  box-sizing: border-box;}
+    
+    .contenido article { width: 60%;
+                         float: left;}
     
     .solve { width: 45%;}
 }

@@ -37,13 +37,13 @@
            
             <?php include 'cont_labaclinicos.php' ?>
             
-                  
-        </div>
         <div id="sidebar">    
                 
                 <?php include 'acord_serv.php' ?>
                 
-        </div> 
+        </div>          
+        </div>
+         
         <section id="tratamientos">
             <h3>Tratamientos</h3>
             <div class="cuadros first">

@@ -558,7 +558,14 @@ div.espacios a:hover { text-decoration: underline;}
     .solve { width: 35%;
              margin: 10px 70% 20px 5px;}
     
-    .contenido {  padding: 45px 40px 45px 40px;}
+    .contenido { width: 100% !important;
+                 float: none !important;
+                 padding: 45px 40px 45px 40px;}
+    
+    
+    
+    
+    
     #servicios { padding: 45px 20px 45px 20px; }
     
     
@@ -576,7 +583,10 @@ div.espacios a:hover { text-decoration: underline;}
     
     .flag { width: 96%;}
   .tel { margin-right: 2.7%;} 
-  .contenido { padding: 45px 5.1% 45px 5.1%;} 
+  .contenido { width: 1100px !important;
+               margin: auto !important;
+               float: none;
+               padding: 45px 0% 45px 0%;} 
     
     
     .logo { left: 35px;
@@ -597,7 +607,11 @@ div.espacios a:hover { text-decoration: underline;}
     
     #sidebar { width: 25% !important;}
     
-    #servicios { padding: 30px 9.5% 45px 9.5%; }
+    #servicios {
+    padding: 30px 0% 45px 0%;
+    width: 1100px;
+    margin: auto;
+}
     
     .espacios { width: 26%;
                 float: left;
@@ -660,8 +674,6 @@ div.espacios a:hover { text-decoration: underline;}
                     text-decoration: underline;
                     color: #153994;}
     
-    .contenido { padding: 45px 14% 45px 14%;
-                 }
     #cuerpo span { font-size: 1.14em; }
     
     #cuerpo p { font-size: 1.3em;
@@ -672,7 +684,7 @@ div.espacios a:hover { text-decoration: underline;}
                padding-top: 20px;
                width: 19.5%;}
     
-    #servicios {  padding: 30px 12% 45px 14%;}
+    
     #servicios a.service { margin-left: 33%;
                            width: 18%;}
     
@@ -710,9 +722,7 @@ div.espacios a:hover { text-decoration: underline;}
     #menu ul { width: 55%;
                margin-right: 20%;}
     
-    #servicios, .contenido {
-    padding: 55px 22% 55px 22%;
-}
+   
     h5 { font-size: 1.8rem;
          padding-bottom: 60px;}
     

@@ -37,13 +37,13 @@
            
             <?php include 'quirogaf.php' ?>
             
-                  
-        </div>
         <div id="sidebar">    
                 
                 <?php include 'acordeon.php' ?>
                 
-        </div> 
+        </div>          
+        </div>
+         
         <section id="tratamientos">
             <h3>Tratamientos</h3>
             <div class="cuadros first">
