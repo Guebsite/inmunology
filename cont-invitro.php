@@ -7,12 +7,12 @@
                 
                 <p>Una vez realizada la fecundación, un máximo de tres embriones de los obtenidos, según sea la elección de la pareja, se depositarán en el útero para que continúen su desarrollo.</p>
                 
-                <h2>Los embriones sobrantes son:</h2>
+                <h2>Los embriones sobrantes pueden ser:</h2>
                 
                 <ul>
                     <li>Criopreservados para su posterior transferencia en otro ciclo.</li>
                     <li>Donados a otras parejas o</li>
-                    <li>Cedidos para investigación con el consentimiento de sus progenitores.</li>
+                    <li>Cedidos para investigación siempre con el consentimiento de sus progenitores.</li>
                 </ul>
 
     <p>El éxito de la técnica depende en gran medida de la edad de la mujer, de la respuesta ovárica y de la calidad de los embriones.</p>
