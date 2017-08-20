@@ -1,10 +1,9 @@
 <article>
                <h5> ! Estamos para Ayudarte ¡ </h5>
                
-               <img class="art" src="http://lorempixel.com/200/200/abstract/" alt="">
+               <img class="art" src="img/quirofano.jpg" alt="">
                
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quis nam ea velit, quasi eius reprehenderit magni! Sit molestias dolorum maiores repellat vero, ab corporis sed fugiat dolorem soluta veritatis!</p>
-               
+               <p>Realizamos los procedimientos endoscópicos utilizando tecnologías de última generación, mediante Laparoscopía e Histeroscopía, resolviendo así problemas de Infertilidad y de Ginecología.</p>
                
                
                <a href="contacto.php" class="btninfo service">Contáctanos</a>
