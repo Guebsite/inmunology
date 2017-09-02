@@ -188,13 +188,22 @@ h6.warning, h6.int { padding-top: 15px;}
             padding: 10px 10px 20px 10px;
             box-sizing: border-box;}
 
-.contenido article ul { padding-left: 35px;
+.contenido article ul, #servicios article ul { padding-left: 35px;
                         font-size: 1.1em;
-                        padding-bottom: 15px;}
+                        padding-bottom: 30px;}
 
-.contenido article li { line-height: 1.5em; }
+.contenido article li, #servicios article li { line-height: 1.5em; }
+
+
+#servicios article li { font-family: 'open_sansregular';
+                        }
 
 .homeart { display: none;}
+
+.imagecont { display: block;
+             width: 100%;
+             height: auto;
+             margin-bottom: 20px;}
 
 #cuerpo p { padding-bottom: 1.5rem;
             line-height: 1.8rem;
@@ -233,12 +242,26 @@ article li { line-height: 1; }
 
 .foto { width: 200px;
         height: 200px;
-        border: 3px solid rgba(21, 57, 148, 0.36);
+        border: 5px solid rgba(21, 57, 148, 0.36);
         border-radius: 100%;
         background-image: url(img/persona-anonima.jpg);
         background-position: center;
         padding-bottom: 20px;
         margin: auto;}
+
+.fotomillones { background-image: url(img/millonest.jpg) !important;
+                background-position: center;
+                background-size: 120% 100%;}
+
+.fotodemsi { background-image: url(img/demsi.jpg) !important;
+                background-position: center;
+                background-size: 105% 105%;
+                /*background-position: center 20px ;*/}
+
+.fotoquiroga { background-image: url(img/drquiroga.jpg) !important;
+                background-position: center;
+                background-size: 105% 105%;
+                /*background-position: center 20px ;*/}
 
 .estudios { border: none;
             margin-top: 10px;
@@ -267,6 +290,7 @@ article li { line-height: 1; }
 .escudos img { width: 100%;
                 
                 height: auto;}
+img.finch { box-shadow: 0px 0px 1px black; }
 
 div.univ { width: 100%; }
 
@@ -452,6 +476,11 @@ div.espacios a:hover { text-decoration: underline;}
 
 .comunication a { width: 50%;
                   }
+    
+.imagecont { display: block;
+             width: 400px;
+             height: auto;
+             }
 
 
 }

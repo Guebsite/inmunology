@@ -3,9 +3,9 @@
                 
                 <h1>Medicina Materno Fetal</h1>
                  
-                <p>La consulta de Medicina Materno fetal se enfoca en la detección de problemas de la madre y el bebe desde el primer trimestre de embarazo </p>
+                <p>Sub especialidad de Ginecología y Obstetricia encargada de embarazo de alto riesgo. Nuestro objetivo es detectar problemas maternos y fetales desde el primer trimestre (genéticos, tamiz de pre eclampsia, anatómico fetales).</p>
                 
-                <p>El embarazo y tu bebe son nuestra preocpación.</p>
+                <p>El embarazo y tu bebe son nuestra preocupación.</p>
                 
                 
             

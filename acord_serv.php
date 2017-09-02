@@ -1,4 +1,4 @@
-         <h2 class="sidebar">── Equipo Médico ──</h2>
+         <h2 class="sidebar">── Otros Servicios ──</h2>
     <nav class="nav" role="navigation">
   <ul class="nav__list">
     <li>

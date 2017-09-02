@@ -32,15 +32,7 @@
 
 <p>Disponibilidad: está disponible para nuestros pacientes en todo momento</p>
 
-<iframe width="360" height="215" src="https://www.youtube.com/embed/EKbPAZ40wEs" frameborder="0" allowfullscreen></iframe>
-<br>
-<iframe width="360" height="215" src="https://www.youtube.com/embed/IF1GfWZgNyI" frameborder="0" allowfullscreen></iframe>
-<br>
-<iframe width="360" height="215" src="https://www.youtube.com/embed/soowAQQtCvY" frameborder="0" allowfullscreen></iframe>
-<br>
-<br>                               
-
-                                
+                    
 <a href="contacto.php" class="btninfo solve">Solicitar Información</a>
                 
 </article>

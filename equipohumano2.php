@@ -77,7 +77,7 @@
         </section>
         <section id="servicios">
            
-           <?php include 'serv.php' ?> 
+           <?php include 'serv-lab.php' ?> 
             
             
         </section>          

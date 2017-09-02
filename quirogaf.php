@@ -2,11 +2,11 @@
                 <div class="vcard">
                 
                 
-                  <div class="foto">
+                  <div class="foto fotoquiroga">
                       
                   </div>  
                   <h1>Dr. Germán Quiroga Feuchter</h1>  
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum architecto quis qui earum doloremque facere corrupti sapiente, incidunt esse.</p>
+                  <p>Médico Especialista en Biología de la Reproducción desde el año 1996</p>
                    
                   <div class="comunication">
                       <a class="humantel" href="tel:6444470303">(644)4470303</a>
@@ -39,13 +39,21 @@
                     <div class="univ">
                         <h6 class="ssss">Hospital de fertilidad CECOOLFE, Santa Fé, Bogotá, Colombia</h6>
                         
-                        <p>Lorem ipsum dolor sit amet, consectetur. </p>
+                        <p>Especialista en Biología de la Reproducción Humana</p>
+                    </div>
+                    <div class="escudos">
+                        <img class="finch" src="img/finch.jpg" alt="">
+                    </div>
+                    <div class="univ">
+                        <h6 class="ssss">Finch University of Chicago</h6>
+                        
+                        <p>Fellows Immunology of Reproduction</p>
                     </div>
                     
                 </div>
                 
                 
-                <p>---</p>
+               
                 
                 
                 

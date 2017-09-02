@@ -39,7 +39,7 @@
             
         <div id="sidebar">    
                 
-                <?php include 'acord_trat.php' ?>
+                <?php include 'acord_gen.php' ?>
                 
         </div>          
         </div>

@@ -40,8 +40,8 @@
           <li><a href="doppler-primer-trimestre.php">Doppler 1er Trimestre</a></li>
           <li><a href="doppler-segundo-trimestre.php">Doppler 2do Trimestre</a></li>
           <li><a href="quantus-maduracion-pulmonar.php">Quantus Maduración Pulmonar</a></li>
-          <li><a href="amniosentesis.php">Amniosentesis</a></li>
-          <li><a href="biopsia-bellosidades-coriales.php">Biopsia de bellosidades Coriales</a></li>
+          <li><a href="amniocentesis.php">Amniocentesis</a></li>
+          <li><a href="biopsia-vellosidades-coriales.php">Biopsia de Vellosidades Coriales</a></li>
           <li><a href="cardiotocografia-simple-estresada.php">Cardiotocografía simple y estresada</a></li>
           
           
@@ -54,7 +54,7 @@
       <ul class="group-list">
         <li>
           <li><a href="laboratorio-genetica.php">Laboratorio de genética</a></li>
-          
+          <li><a href="diagnostico-genetico.php">Diagnóstico Genético Preimplantacional</a></li>
           
         </li>
       </ul>

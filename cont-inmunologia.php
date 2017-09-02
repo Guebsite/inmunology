@@ -3,8 +3,8 @@
                 
                 <h1>Inmunología</h1>
                  
-                <p>---</p>
+                <p>La inmunología reproductiva es una ciencia nueva que nace de la inmunología de trasplante, ya que el feto es analogado por algunos científicos como un transplante semi-alogénico, al poseer tanto antígenos paternos como maternos, cumpliendo con las reglas de aceptación o rechazo del mismo.</p>
                 
-                <a href="#" class="btninfo solve">Solicitar Información</a>
+
                 
 </article>

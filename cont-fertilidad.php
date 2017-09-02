@@ -3,8 +3,8 @@
                 
                 <h1>Fertilidad</h1>
                  
-                <p>---</p>
+                <p>Nuestro centro se distingue en ofrecer una atencion personalizada a cada pareja en dependencia de la causa de infertilidad, para ello contamos con los siguientes </p>
                 
-                <a href="contacto.php" class="btninfo solve">Solicitar Información</a>
+                
                 
 </article>

@@ -39,7 +39,7 @@
             
         <div id="sidebar">    
                 
-                <?php include 'acord_trat.php' ?>
+                <?php include 'acord_inmuno.php' ?>
                 
         </div>          
         </div>
@@ -77,7 +77,7 @@
         </section>
         <section id="servicios">
            
-           <?php include 'serv.php' ?> 
+           <?php include 'fallos.php' ?> 
             
             
         </section>          

@@ -35,15 +35,15 @@
       <section id="cuerpo">
         <div class="contenido">
            
-            <?php include 'garciab.php' ?>
+            <?php include 'cont-diag.php' ?>
             
         <div id="sidebar">    
                 
-                <?php include 'acordeon.php' ?>
+                <?php include 'acord_trat.php' ?>
                 
-        </div>           
+        </div>          
         </div>
-        
+         
         <section id="tratamientos">
             <h3>Tratamientos</h3>
             <div class="cuadros first">
@@ -77,7 +77,7 @@
         </section>
         <section id="servicios">
            
-           <?php include 'serv-lab.php' ?> 
+           <?php include 'serv.php' ?> 
             
             
         </section>          

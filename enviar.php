@@ -1,5 +1,5 @@
 <?php 
-$destino = "jmillonestapia@yahoo.com.mx,reynier.nr@gmail.com";
+$destino = "dr.millones@immunologyandreproduction.com";
 $subject = "Enviado desde www.immunologyandreproduction.com/";
 $nombre = $_POST["nombre"];
 $email = $_POST["email"];

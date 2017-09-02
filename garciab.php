@@ -2,15 +2,15 @@
                 <div class="vcard">
                 
                 
-                  <div class="foto fotodemsig">
+                  <div class="foto fotodemsi">
                       
                   </div>  
-                  <h1>Dr. Demsi García Benabente</h1>  
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum architecto quis qui earum doloremque facere corrupti sapiente, incidunt esse.</p>
+                  <h1>Dr. Denmsi García Benavente</h1>  
+                  <p>Especialista en Medicina Materno Fetal desde el año 2013</p>
                    
                   <div class="comunication">
-                      <a class="humantel" href="tel:6444470303">(644)4470303</a>
-                      <a class="humanmail" href="mailto:">gerquif@gmail.com</a>
+                      <a class="humantel" href="tel:6444307081">(644)4307081</a>
+                      <a class="humanmail" href="mailto:">denmfigb@hotmail.com</a>
                     
                   </div>  
                     
@@ -27,25 +27,25 @@
                         <p>Médico Cirujano </p>
                     </div>
                     <div class="escudos">
-                        <img src="img/hgeneral.jpg" alt="">
+                        <img src="img/sinaloa.jpg" alt="">
                     </div>
                     <div class="univ">
-                        <h6 class="ssss">Hospital General Ciudad Obregón</h6>
+                        <h6 class="ssss">Universidad Autónoma de Sinaloa</h6>
                         <p>Especialista en Ginecología y Obstetricia </p>
                     </div>
                     <div class="escudos">
-                        <img src="img/cecolfe.jpg" alt="">
+                        <img src="img/udem.jpg" alt="">
                     </div>
                     <div class="univ">
-                        <h6 class="ssss">Hospital de fertilidad CECOOLFE, Santa Fé, Bogotá, Colombia</h6>
+                        <h6 class="ssss">Universidad de Monterrey</h6>
                         
-                        <p>Lorem ipsum dolor sit amet, consectetur. </p>
+                        <p>Especialista en Medicina Materno Fetal</p>
                     </div>
                     
                 </div>
                 
                 
-                <p>---</p>
+               
                 
                 
                 

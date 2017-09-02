@@ -35,7 +35,7 @@
       <section id="cuerpo">
         <div class="contenido">
            
-            <?php include 'cont-amniosentesis.php' ?>
+            <?php include 'cont-amniocentesis.php' ?>
             <div id="sidebar">    
                 
                 <?php include 'acord_trat.php' ?>
