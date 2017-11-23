@@ -14,7 +14,7 @@
               <h6 class="int">Enlaces de Interés</h6>
               <ul>
                   <li><a href="avisoprivacidad.php">Aviso de privacidad</a></li>
-                  <li><a href="politicas.php">Políticas de privacidad</a></li>
+                  <li><a href="politicas.php">Políticas de privacidad.</a></li>
                   <li><a href="contacto.php">Contáctanos</a></li>
               </ul>
           </div>
